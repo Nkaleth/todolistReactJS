@@ -1,8 +1,7 @@
-import styles from "styles/Header.module.scss";
-
+import styles from 'styles/Header.module.scss';
 
 const Header = () => {
-  const headerstyle= {
+  const headerstyle = {
     padding: '20px 0',
     lineHeight: '1.5em',
     color: '#aeadad',
@@ -15,4 +14,5 @@ const Header = () => {
     </header>
   );
 };
+
 export default Header;
